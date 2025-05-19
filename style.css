@@ -1,26 +1,83 @@
+
 body {
     font-family: 'roboto';
-    color : #000;
+    color: #000;
 }
-.judul{
-    background: #87D1D8;
+
+.judul {
+    background: #63c9db;
     padding: 10px;
     text-align: center;
+
 }
-.judul h1,h2,h3{
+
+.judul h1,
+h2,
+h3 {
     height: 15px;
 }
 
-a{
+a {
     /*color: #fff;*/
     padding: 5px;
     text-decoration: none;
 }
 
-.table{
-    border-collapse:collapse;
+.table {
+    border-collapse: collapse;
+    font-size: 15px;
 }
 
-table.table th th , table.table tr td{
+table.table th th,
+table.table tr td {
     padding: 10px 20px;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+    background: #63c9db;
+    color: white;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+.hitam {
+    color: #ffffff;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration:none;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #63c9db;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
 }

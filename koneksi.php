@@ -2,10 +2,8 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "project1";
+$database = "si_gudang";
 
-//mengisi nama host, username mysql, dan password
-
-$koneksi = mysqli_connect($host,$username,$password,$database)
+$koneksi = mysqli_connect($host, $username, $password, $database);     
 
 ?>
